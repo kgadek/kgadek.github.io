@@ -1,6 +1,11 @@
 name: kgadek-github-io
-version: '0.1.0.0'
-license: UnspecifiedLicense
+version: '0.0.0.1'
+category: Blog
+synopsis: Source of kgadek.github.io blog.
+author: Konrad Gądek <kgadek@gmail.com>
+license: BSD3
+copyright: 2017, Konrad Gądek
+github: kgadek/kgadek.github.io
 
 dependencies:
 - base ==4.*
