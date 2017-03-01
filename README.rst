@@ -16,6 +16,20 @@ About
 I like pie.
 
 
+Building the site
+=================
+
+Build the binary, rebuild the blog, add the blog::
+
+    stack build
+    stack exec site rebuild
+    git add _site
+
+You can automate the process by using ``pre-commit`` hook::
+
+    cp pre-commit .git/hooks/pre-commit
+
+
 Updating the site
 =================
 
