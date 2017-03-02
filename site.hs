@@ -29,6 +29,7 @@ main = hakyll $ do
         route $ setExtension "html"
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/post.html"    postCtx
+            >>= saveSnapshot "content"
             >>= loadAndApplyTemplate "templates/default.html" postCtx
             >>= relativizeUrls
 
@@ -66,7 +67,7 @@ main = hakyll $ do
         route idRoute
         compile $ do
             let feedCtx = postCtx `mappend` 
-                          constField "description" "$post_description"
+                          bodyField "description"
 
                 atomFeedConfig :: FeedConfiguration
                 atomFeedConfig = FeedConfiguration
@@ -77,7 +78,7 @@ main = hakyll $ do
                     , feedRoot        = "https://kgadek.github.io"
                     }
 
-            posts <- (take 10 <$>) . recentFirst =<< loadAll "posts/*"
+            posts <- (take 10 <$>) . recentFirst =<< loadAllSnapshots "posts/*" "content"
             renderAtom atomFeedConfig feedCtx posts
 
 
