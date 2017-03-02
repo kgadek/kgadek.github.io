@@ -44,8 +44,6 @@ Create new ``master`` from current ``develop``::
     git rm -rf .
     git read-tree develop^{tree}:_site
     git checkout -- .
-    git show develop:LICENSE > LICENSE
-    git add LICENSE
     git commit --no-verify -m "Deploy from develop SHA1:$(git rev-parse --short develop) ($(git log -1 --format=%cd develop))"
     git replace --graft @ $(git show --pretty=%P @ | head -n1) develop
     git commit --amend -S --no-edit --no-verify
