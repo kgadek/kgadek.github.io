@@ -62,6 +62,24 @@ main = hakyll $ do
 
     match "templates/*" $ compile templateBodyCompiler
 
+    create ["atom.xml"] $ do
+        route idRoute
+        compile $ do
+            let feedCtx = postCtx `mappend` 
+                          constField "description" "$post_description"
+
+                atomFeedConfig :: FeedConfiguration
+                atomFeedConfig = FeedConfiguration
+                    { feedTitle       = "kgadek.github.io — newest blog entries"
+                    , feedDescription = "kpfp of a blog"
+                    , feedAuthorName  = "Konrad Gądek"
+                    , feedAuthorEmail = "kgadek@gmail.com"
+                    , feedRoot        = "https://kgadek.github.io"
+                    }
+
+            posts <- (take 10 <$>) . recentFirst =<< loadAll "posts/*"
+            renderAtom atomFeedConfig feedCtx posts
+
 
 --------------------------------------------------------------------------------
 postCtx :: Context String
