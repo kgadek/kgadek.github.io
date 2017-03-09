@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <title>kgadek.github.io</title>
-    <link href="https://kgadek.github.io/atom.xml" rel="self" />
-    <link href="https://kgadek.github.io" />
-    <id>https://kgadek.github.io/atom.xml</id>
-    <author>
-        <name>Konrad Gądek</name>
-        <email>kgadek@gmail.com</email>
-    </author>
-    <updated>2017-03-05T00:00:00Z</updated>
-    <entry>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>kgadek.github.io</title>
+        <link>https://kgadek.github.io</link>
+        <description><![CDATA[Haskell, UNIX, dead parrots, and oxford comma]]></description>
+        <atom:link href="https://kgadek.github.io/feed.xml" rel="self"
+                   type="application/rss+xml" />
+        <lastBuildDate>Sun, 05 Mar 2017 00:00:00 UT</lastBuildDate>
+        <item>
     <title>Lorem ipsum, part 2</title>
-    <link href="https://kgadek.github.io/posts/2017-03-05-lipsum2.html" />
-    <id>https://kgadek.github.io/posts/2017-03-05-lipsum2.html</id>
-    <published>2017-03-05T00:00:00Z</published>
-    <updated>2017-03-05T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<div class="info">
+    <link>https://kgadek.github.io/posts/2017-03-05-lipsum2.html</link>
+    <description><![CDATA[<div class="info">
     Posted on March  5, 2017.
     
       Original: derived from Cicero, "De finibus bonorum et malorum".
@@ -49,15 +45,15 @@ Nothing here is a&nbsp;professional advice.
 <abbr title="I am not a lawyer">IANAL</abbr> (<abbr title="This is not legal advice">TINLA</abbr>), <abbr title="I am not a Medical Doctor">IANAMD</abbr>, <abbr title="I am not a cryptographer">IANAC</abbr>, <abbr title="I Am Not A Kernel Hacker">IANAKH</abbr>,&nbsp;&hellip; <abbr title="I am not a physicist">IANAP</abbr>.
 Wanna see <a href="https://kgadek.github.io/LICENSE.txt">licence</a>?
 
-]]></summary>
-</entry>
-<entry>
+]]></description>
+    <pubDate>Sun, 05 Mar 2017 00:00:00 UT</pubDate>
+    <guid>https://kgadek.github.io/posts/2017-03-05-lipsum2.html</guid>
+    <dc:creator>Konrad Gądek</dc:creator>
+</item>
+<item>
     <title>Lorem ipsum, part 1</title>
-    <link href="https://kgadek.github.io/posts/2017-03-05-lipsum.html" />
-    <id>https://kgadek.github.io/posts/2017-03-05-lipsum.html</id>
-    <published>2017-03-05T00:00:00Z</published>
-    <updated>2017-03-05T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<div class="info">
+    <link>https://kgadek.github.io/posts/2017-03-05-lipsum.html</link>
+    <description><![CDATA[<div class="info">
     Posted on March  5, 2017.
     
       Original: derived from Cicero, "De finibus bonorum et malorum".
@@ -91,7 +87,11 @@ Nothing here is a&nbsp;professional advice.
 <abbr title="I am not a lawyer">IANAL</abbr> (<abbr title="This is not legal advice">TINLA</abbr>), <abbr title="I am not a Medical Doctor">IANAMD</abbr>, <abbr title="I am not a cryptographer">IANAC</abbr>, <abbr title="I Am Not A Kernel Hacker">IANAKH</abbr>,&nbsp;&hellip; <abbr title="I am not a physicist">IANAP</abbr>.
 Wanna see <a href="https://kgadek.github.io/LICENSE.txt">licence</a>?
 
-]]></summary>
-</entry>
+]]></description>
+    <pubDate>Sun, 05 Mar 2017 00:00:00 UT</pubDate>
+    <guid>https://kgadek.github.io/posts/2017-03-05-lipsum.html</guid>
+    <dc:creator>Konrad Gądek</dc:creator>
+</item>
 
-</feed>
+    </channel>
+</rss>
