@@ -5,6 +5,8 @@ import           Hakyll
 
 
 --------------------------------------------------------------------------------
+siteRoot = "https://kgadek.github.io"
+
 main :: IO ()
 main = hakyll $ do
     match "LICENSE" $ do
@@ -22,7 +24,7 @@ main = hakyll $ do
     match (fromList ["gpg.rst"]) $ do
         route   $ setExtension "html"
         compile $ pandocCompiler
-            >>= loadAndApplyTemplate "templates/default.html" defaultContext
+            >>= loadAndApplyTemplate "templates/default.html" commonContext
             >>= relativizeUrls
 
     match "posts/*" $ do
@@ -40,7 +42,7 @@ main = hakyll $ do
             let archiveCtx =
                     listField "posts" postCtx (return posts)
                  <> constField "title" "Archives"
-                 <> defaultContext
+                 <> commonContext
 
             makeItem ""
                 >>= loadAndApplyTemplate "templates/archive.html" archiveCtx
@@ -52,8 +54,8 @@ main = hakyll $ do
         route idRoute
         compile $ do
             posts <- recentFirst =<< loadAll "posts/*"
-            let indexCtx =
-                    listField "posts" postCtx (return posts) <> defaultContext
+            let indexCtx = listField "posts" postCtx (return posts)
+                        <> commonContext
 
             getResourceBody
                 >>= applyAsTemplate indexCtx
@@ -63,10 +65,8 @@ main = hakyll $ do
     match "templates/*" $ compile templateBodyCompiler
 
 
-    let siteRoot = "https://kgadek.github.io"
-        feedCtx = postCtx
+    let feedCtx = postCtx
                <> bodyField "description"
-               <> constField "siteRoot" siteRoot
 
         feedConfig :: FeedConfiguration
         feedConfig = FeedConfiguration
@@ -95,4 +95,9 @@ main = hakyll $ do
 postCtx :: Context String
 postCtx =
     dateField "date" "%B %e, %Y"
+ <> commonContext
+
+commonContext :: Context String
+commonContext =
+    constField "siteRoot" siteRoot
  <> defaultContext
