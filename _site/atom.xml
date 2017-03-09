@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>kgadek.github.io — newest blog entries</title>
+    <title>kgadek.github.io</title>
     <link href="https://kgadek.github.io/atom.xml" rel="self" />
     <link href="https://kgadek.github.io" />
     <id>https://kgadek.github.io/atom.xml</id>
