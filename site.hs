@@ -69,8 +69,8 @@ main = hakyll $ do
 
                 atomFeedConfig :: FeedConfiguration
                 atomFeedConfig = FeedConfiguration
-                    { feedTitle       = "kgadek.github.io — newest blog entries"
-                    , feedDescription = "kpfp of a blog"
+                    { feedTitle       = "kgadek.github.io"
+                    , feedDescription = "Haskell, UNIX, dead parrots, and oxford comma"
                     , feedAuthorName  = "Konrad Gądek"
                     , feedAuthorEmail = "kgadek@gmail.com"
                     , feedRoot        = "https://kgadek.github.io"
