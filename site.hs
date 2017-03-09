@@ -77,6 +77,13 @@ main = hakyll $ do
             , feedRoot        = siteRoot
             }
 
+    create ["feed.xml"] $ do
+        route idRoute
+        compile $ loadAllSnapshots "posts/*" "content"
+              >>= mapM (loadAndApplyTemplate "templates/feedEntry.html" feedCtx)
+              >>= (take 10 <$>) . recentFirst
+              >>= renderRss feedConfig feedCtx
+
     create ["atom.xml"] $ do
         route idRoute
         compile $ loadAllSnapshots "posts/*" "content"
