@@ -1,12 +1,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
         <url>
-            <loc>https://kgadek.github.io/tags/</loc>
+            <loc>https://kgadek.github.io/posts/</loc>
             
         </url>
     
         <url>
-            <loc>https://kgadek.github.io/</loc>
+            <loc>https://kgadek.github.io/tags/</loc>
             
         </url>
     
@@ -18,14 +18,14 @@
         </url>
     
         <url>
-            <loc>https://kgadek.github.io/posts/lipsum2/</loc>
-            
-                <lastmod>2017-03-05T11:00:00+01:00</lastmod>
+            <loc>https://kgadek.github.io/</loc>
             
         </url>
     
         <url>
-            <loc>https://kgadek.github.io/posts/</loc>
+            <loc>https://kgadek.github.io/posts/lipsum/</loc>
+            
+                <lastmod>2017-03-05T10:00:00+01:00</lastmod>
             
         </url>
     
@@ -40,9 +40,9 @@
         </url>
     
         <url>
-            <loc>https://kgadek.github.io/posts/lipsum/</loc>
+            <loc>https://kgadek.github.io/posts/lipsum2/</loc>
             
-                <lastmod>2017-03-05T10:00:00+01:00</lastmod>
+                <lastmod>2017-03-05T11:00:00+01:00</lastmod>
             
         </url>
     
