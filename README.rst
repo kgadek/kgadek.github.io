@@ -24,11 +24,19 @@ Build the binary, rebuild the blog::
     zola build
 
 
-Updating the site (graft way)
-=============================
+Setting up git hooks
+====================
 
 .. note::
    This section needs updating.
+
+::
+
+    ln scripts/pre-commit-hook.sh .git/hooks/pre-commit
+
+
+Updating the site (graft way)
+=============================
 
 Create ``master`` branch::
 
