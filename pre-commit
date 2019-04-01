@@ -1,9 +1,0 @@
-#!/bin/sh
-set -euxo pipefail
-
-shellcheck pre-commit
-
-stack build
-stack exec site rebuild
-git add _site
-

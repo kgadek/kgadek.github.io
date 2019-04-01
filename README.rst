@@ -19,19 +19,16 @@ I like pie.
 Building the site
 =================
 
-Build the binary, rebuild the blog, add the blog::
+Build the binary, rebuild the blog::
 
-    stack build
-    stack exec site rebuild
-    git add _site
-
-You can automate the process by using ``pre-commit`` hook::
-
-    cp pre-commit .git/hooks/pre-commit
+    zola build
 
 
-Updating the site
-=================
+Updating the site (graft way)
+=============================
+
+.. note::
+   This section needs updating.
 
 Create ``master`` branch::
 
