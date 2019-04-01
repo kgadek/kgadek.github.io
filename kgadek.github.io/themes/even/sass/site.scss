@@ -12,6 +12,7 @@ $theme-color-map: (
 $main-colour: #c05b4d;
 $secondary-colour: #f8f5ec;
 $body-width: 800px;
+$body-padding: 20px;
 $mobile-navbar-height: 50px !default;
 $code-colour: #c7254e;
 $code-font-family: Consolas, Monaco, Menlo, Consolas, monospace !default;
@@ -36,3 +37,4 @@ $code-font-family: Consolas, Monaco, Menlo, Consolas, monospace !default;
 @import "mobile";
 @import "slideout";
 @import "toc";
+@import "footer";
