@@ -6,11 +6,6 @@
         </url>
     
         <url>
-            <loc>https://kgadek.github.io/posts/</loc>
-            
-        </url>
-    
-        <url>
             <loc>https://kgadek.github.io/posts/lipsum/</loc>
             
                 <lastmod>2017-03-05T10:00:00+01:00</lastmod>
@@ -30,9 +25,7 @@
         </url>
     
         <url>
-            <loc>https://kgadek.github.io/about/</loc>
-            
-                <lastmod>2017-03-03T00:58:40+01:00</lastmod>
+            <loc>https://kgadek.github.io/tags/example/</loc>
             
         </url>
     
@@ -42,7 +35,14 @@
         </url>
     
         <url>
-            <loc>https://kgadek.github.io/tags/example/</loc>
+            <loc>https://kgadek.github.io/posts/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>https://kgadek.github.io/about/</loc>
+            
+                <lastmod>2017-03-03T00:58:40+01:00</lastmod>
             
         </url>
     
