@@ -11,5 +11,18 @@ highlight_code = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
+generate_rss = true
+
+theme = "even"
+taxonomies = [
+    {name = "tags", rss = true},
+]
+
 [extra]
 # Put all your custom variables here
+
+even_menu = [
+    {url = "$BASE_URL", name = "Home"},
+    #{url = "$BASE_URL/tags", name = "Tags"},
+    {url = "$BASE_URL/about", name = "About"},
+]
