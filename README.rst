@@ -7,6 +7,9 @@
 
 :Author: Konrad Gądek
 
+.. image:: https://circleci.com/gh/kgadek/kgadek.github.io/tree/develop.svg?style=svg
+   :target: https://circleci.com/gh/kgadek/kgadek.github.io/tree/develop
+
 About
 =====
 

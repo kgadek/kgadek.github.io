@@ -1,7 +1,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
         <url>
+            <loc>https://kgadek.github.io/posts/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>https://kgadek.github.io/about/</loc>
+            
+                <lastmod>2017-03-03T00:58:40+01:00</lastmod>
+            
+        </url>
+    
+        <url>
             <loc>https://kgadek.github.io/page/1/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>https://kgadek.github.io/</loc>
             
         </url>
     
@@ -20,29 +37,12 @@
         </url>
     
         <url>
-            <loc>https://kgadek.github.io/</loc>
-            
-        </url>
-    
-        <url>
             <loc>https://kgadek.github.io/tags/example/</loc>
             
         </url>
     
         <url>
             <loc>https://kgadek.github.io/tags/</loc>
-            
-        </url>
-    
-        <url>
-            <loc>https://kgadek.github.io/posts/</loc>
-            
-        </url>
-    
-        <url>
-            <loc>https://kgadek.github.io/about/</loc>
-            
-                <lastmod>2017-03-03T00:58:40+01:00</lastmod>
             
         </url>
     
