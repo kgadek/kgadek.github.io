@@ -1,7 +1,7 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     
         <url>
-            <loc>https://kgadek.github.io/posts/</loc>
+            <loc>https://kgadek.github.io/</loc>
             
         </url>
     
@@ -18,7 +18,7 @@
         </url>
     
         <url>
-            <loc>https://kgadek.github.io/</loc>
+            <loc>https://kgadek.github.io/posts/</loc>
             
         </url>
     
@@ -37,12 +37,12 @@
         </url>
     
         <url>
-            <loc>https://kgadek.github.io/tags/example/</loc>
+            <loc>https://kgadek.github.io/tags/</loc>
             
         </url>
     
         <url>
-            <loc>https://kgadek.github.io/tags/</loc>
+            <loc>https://kgadek.github.io/tags/example/</loc>
             
         </url>
     
