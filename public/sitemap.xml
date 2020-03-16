@@ -1,4 +1,5 @@
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
         <url>
             <loc>https://kgadek.github.io/</loc>
@@ -23,26 +24,9 @@
         </url>
     
         <url>
-            <loc>https://kgadek.github.io/posts/lipsum/</loc>
+            <loc>https://kgadek.github.io/posts/covid-19-en/</loc>
             
-                <lastmod>2017-03-05T10:00:00+01:00</lastmod>
-            
-        </url>
-    
-        <url>
-            <loc>https://kgadek.github.io/posts/lipsum2/</loc>
-            
-                <lastmod>2017-03-05T11:00:00+01:00</lastmod>
-            
-        </url>
-    
-        <url>
-            <loc>https://kgadek.github.io/tags/</loc>
-            
-        </url>
-    
-        <url>
-            <loc>https://kgadek.github.io/tags/example/</loc>
+                <lastmod>2020-03-15T20:18:26-07:00</lastmod>
             
         </url>
     
