@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    
-        <url>
-            <loc>https://kgadek.github.io/</loc>
-            
-        </url>
-    
-        <url>
-            <loc>https://kgadek.github.io/about/</loc>
-            
-                <lastmod>2017-03-03T00:58:40+01:00</lastmod>
-            
-        </url>
-    
-        <url>
-            <loc>https://kgadek.github.io/posts/</loc>
-            
-        </url>
-    
+    <url>
+        <loc>https://konradgadek.xyz/</loc>
+    </url>
+    <url>
+        <loc>https://konradgadek.xyz/about/</loc>
+        <lastmod>2017-03-03T00:58:40+01:00</lastmod>
+    </url>
+    <url>
+        <loc>https://konradgadek.xyz/posts/</loc>
+    </url>
 </urlset>
