@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: kgadek/kgadek.github.io:v0.14.0
+      - image: kgadek/kgadek.github.io:v0.6.0
     branches:
       ignore:
         - master
