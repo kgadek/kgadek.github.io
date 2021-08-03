@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://kgadek.github.io"
+base_url = "https://konradgadek.xyz"
 title = "kpfp"
 
 # Whether to automatically compile all Sass files in the sass directory
@@ -22,7 +22,7 @@ taxonomies = [
 [extra]
 # Put all your custom variables here
 
-even_title = "kgadek.github.io"
+even_title = "konradgadek.xyz"
 even_menu = [
     {url = "$BASE_URL", name = "Home"},
     #{url = "$BASE_URL/tags", name = "Tags"},
