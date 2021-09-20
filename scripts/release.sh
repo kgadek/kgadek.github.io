@@ -2,7 +2,7 @@
 set -euxo pipefail
 
 export DEVELOP_BRANCH="develop"
-export MASTER_BRANCH="master"
+export MASTER_BRANCH="main"
 
 export MASTER_HASH="$(git rev-parse "${MASTER_BRANCH}")"
 export DEVELOP_HASH="$(git rev-parse "${DEVELOP_BRANCH}")"
