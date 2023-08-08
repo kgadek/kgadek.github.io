@@ -2,7 +2,7 @@
 set -euxo pipefail
 
 DOCKER_REPO="kgadek/kgadek.github.io"
-ZOLA_VER="v0.15.1"
+ZOLA_VER="v0.17.2"
 
 docker build --build-arg ZOLA_VER="${ZOLA_VER}" -t "${DOCKER_REPO}:${ZOLA_VER}" .
 
