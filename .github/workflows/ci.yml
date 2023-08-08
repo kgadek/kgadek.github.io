@@ -1,0 +1,15 @@
+name: Build website
+on: 
+  push:
+    branches-ignore:
+      - master
+jobs:
+  Build-With-Zola:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: taiki-e/install-action@v2
+        with:
+          tool: zola@0.17.2
+      - uses: actions/checkout@v3
+      - run: zola check
+      - run: zola build
