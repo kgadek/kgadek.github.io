@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: kgadek/kgadek.github.io:v0.15.1
+      - image: ghcr.io/getzola/zola:v0.17.2
     branches:
       ignore:
         - master
