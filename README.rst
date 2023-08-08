@@ -7,8 +7,8 @@
 
 :Author: Konrad Gądek
 
-.. image:: https://circleci.com/gh/kgadek/kgadek.github.io/tree/develop.svg?style=svg
-   :target: https://circleci.com/gh/kgadek/kgadek.github.io/tree/develop
+.. image:: https://github.com/kgadek/kgadek.github.io/actions/workflows/ci.yml/badge.svg?branch=develop
+   :target: https://github.com/kgadek/kgadek.github.io/actions/workflows/ci.yml
 
 About
 =====
