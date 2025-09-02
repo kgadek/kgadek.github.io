@@ -1,8 +1,14 @@
 +++
 title = "GPG key"
-date = 2017-03-03T00:58:40+01:00
+date = 2025-09-02T23:54:08+02:00
 path = "about"
 +++
+
+> ## 2025-09-02 note: this key is deprecated
+>
+> I no longer have access to this key.
+> I believe it's still safe, *only lost*.
+> Nevertheless expect new key to be created.
 
 Fingerprint: `6C84 3357 8CF4 D0D4 73F9 0696 B84F A4FD 09AE C8A4`.
 
