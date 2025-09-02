@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: taiki-e/install-action@v2
         with:
-          tool: zola@0.17.2
+          tool: zola@0.21.0
       - uses: actions/checkout@v3
       - run: zola check
       - run: zola build
